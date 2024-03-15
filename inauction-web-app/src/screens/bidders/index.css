@@ -1,0 +1,55 @@
+.module-informational-notes {
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.ant-layout-footer {
+  border-top: solid 1px #e8e8e8;
+  position: relative;
+  bottom: -160px;
+}
+
+.back-to-btn {
+  background: #fa8c16 !important;
+  border: 1px solid #fa8c16 !important;
+  color: white!important;
+}
+
+#invite_bidder {
+  border-top: 1px solid #d9d9d9;
+  margin-top: 5px;
+}
+
+#invite_bidder .ant-form-item {
+  padding-bottom: 10px;
+}
+
+#invite_bidder .ant-form-item-label {
+  padding: 0 0 5px;
+}
+
+#invite_bidder .ant-form-item-explain-error {
+  margin-top: 5px;
+}
+
+#invite_bidder .ant-picker {
+  width: 55%;
+}
+
+.gx-media-bidders-details {
+  font-size: 13px;
+  text-align: justify!important;
+}
+
+.invite-bidder-form-gx-card .ant-card-head-title {
+  margin-bottom: -20px;
+}
+
+/* Media queries breakpoints */
+/* Extra small screen / phone */
+/*@todo use .less*/
+@media screen and (max-width: 480px) {
+    .ant-form-item{
+        margin-bottom: 15px!important;
+    }
+}

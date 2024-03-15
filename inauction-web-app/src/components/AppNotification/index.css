@@ -1,0 +1,13 @@
+.mark-as-read-btn{
+    background: #3e869c!important;
+    border: 1px solid #3e869c!important;
+    color: white!important;
+    float: right;
+    top: -25px;
+}
+
+.mark-as-read-btn i{
+    position: relative;
+    top: 3px;
+    left: -5px;
+}

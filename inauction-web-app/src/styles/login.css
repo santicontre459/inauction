@@ -1,0 +1,399 @@
+.ant-layout.not-logged-in-routes-layout {
+  min-height: 100vh!important;
+}
+
+.gx-app-login-main-content {
+  overflow-y: scroll!important;
+}
+
+.gx-app-login-content .ant-input,
+.gx-app-register-content .ant-input {
+  background-color:#fff;
+}
+
+.gx-app-register-content {
+  padding: 25px 35px 25px 35px;
+}
+
+.gx-app-logo-content-bg:before {
+    background-color:#fff !important;
+}
+
+.gx-app-logo-content {
+    border-right: 1px solid rgb(234, 225, 225) !important;
+}
+
+.gx-app-logo-content span span {
+    color: #000;
+}
+
+.ant-legacy-form-item{
+    margin-bottom: 19px;
+}
+
+.ant-legacy-form-item:nth-child(2) {
+  margin-bottom: 5px;
+}
+
+.app-login-form .ant-legacy-form-item:nth-child(2) {
+    margin-bottom: 5px;
+}
+
+.gx-app-logo-content h1 span {
+  color: #3f869c;
+}
+
+.app-register-form h1 {
+  margin-bottom: 5px;
+}
+
+.app-register-form hr {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.app-register-form h1 span {
+  color: #3f869c;
+  font-size: 20px;
+}
+
+.cont_ineg {
+  color: #000;
+}
+
+span .cont_ineg {
+  padding-top: 2px;
+  display:block;
+}
+
+.cont_ineg i {
+  color: #3e869b;
+  vertical-align: middle;
+  line-height: 10px;
+}
+
+.cont_ineg a {
+  color: #3e869b;
+}
+
+.login-notification {
+  float:right;
+}
+
+.gx-app-logo-content-login-right {
+  padding-bottom: 5px;
+}
+
+.gx-app-logo-content-login-left {
+  padding-bottom: 25px;
+}
+
+.gx-app-logo-content-login-password-right {
+  padding-bottom: 5px;
+}
+
+.gx-app-logo-content-login-password-right .ant-legacy-form-item {
+  margin-bottom: 10px;
+}
+
+.gx-app-logo-content-login-password-left {
+  padding-bottom: 15px;
+}
+
+.gx-app-logo-content-login-left .gx-app-logo-wid {
+  margin-top: 0px;
+}
+
+.gx-app-logo-content-login-left .gx-app-logo-wid h1 {
+  margin-bottom: 30px;
+}
+
+
+.gx-app-logo-content-login-password-left .gx-app-logo-wid {
+  margin-top: 0px;
+}
+
+.gx-app-logo-content-login-password-left .gx-app-logo-wid h1 {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.login-form-forgot {
+  float: right;
+}
+
+.gx-app-logo-wid {
+  margin-top: auto;
+}
+
+.app-register-form .ant-legacy-form-item {
+  margin-bottom: 10px;
+}
+
+.gx-layout-footer-content {
+  text-align: center;
+}
+
+a, span a span {
+  color: #3f869c;
+}
+
+.app-register-form {
+  width:100%;
+}
+
+.app-bottom-register {
+  display:flex;
+  align-items: center;
+}
+
+.action-signup span.ant-legacy-form-item-children {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-register-form .ant-col:nth-child(1) {
+  padding-left: 0!important;
+}
+
+.app-register-form .app-company-verify-business-number {
+  padding-right: 0 !important;
+}
+
+.gx-signup-form {
+  padding-top: 20px;
+}
+
+.ant-col:nth-child(2).app-bottom-register-host  {
+  text-align: right;
+  padding-right: 8px !important;
+}
+
+.app-bottom-register-host a span:first-letter {
+  text-transform: uppercase !important;
+}
+
+.app-bottom-register-host a span {
+  display: inline-block;
+}
+
+.app-bottom-register-host p {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.logo_signup img {
+  width: 60%;
+  margin-left: -15px;
+}
+
+.app-register-form .action-signup {
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.app-register-form .action-host-register {
+  float: right;
+  margin-bottom: 0;
+}
+
+.gx-app-login-container.gx-host-form-register {
+  max-width: 750px;
+}
+
+.register-accept-terms {
+  font-size: 13px;
+}
+
+.row_budget_nipt .ant-col:last-child{
+  padding-right: 0 !important;
+}
+
+.host-register-form-turnover {
+  padding-right: 8px !important;
+}
+
+.gx-app-message-content {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.gx-app-message-content .icon {
+  font-size: 40px;
+}
+
+.company-verification-pending .icon,
+.company-verification-pending h5,
+.company-verification-more-info-required .icon,
+.company-verification-more-info-required h5 {
+  color: #FF9800;
+}
+
+.bidder-registration-content .icon,
+.bidder-registration-content h5,
+.company-verification-success .icon {
+  color: #3f869c;
+}
+
+.upload-btn-upload-label label.ant-legacy-form-item-required {
+  display: flex;
+  align-items: center;
+}
+
+.upload-btn-upload-label  svg {
+  margin-left: 5px;
+}
+
+.upload-btn-upload-label .ant-upload.ant-upload-select {
+  width:100%;
+}
+.upload-btn-upload-label .ant-upload.ant-upload-select button {
+  width:100%;
+}
+
+.company-verification-job-position {
+  padding-right: 0 !important;
+}
+
+.gx-app-login-wrap{
+  display: flex;
+}
+
+.gx-app-login-container{
+  display: flex;
+  margin: auto;
+}
+
+.upload-row-not-logged #upload1-not-logged {
+  padding-right:8px !important;
+}
+
+.upload-row-not-logged #upload2-not-logged {
+  padding-right:0 !important;
+}
+
+.ant-upload-list-picture .ant-upload-list-item,
+.ant-upload-list-picture-card .ant-upload-list-item {
+  height: 50px;
+}
+
+.ant-upload-list-picture .ant-upload-list-item-thumbnail,
+.ant-upload-list-picture-card .ant-upload-list-item-thumbnail {
+  top: 10px;
+  left: 8px;
+  width: 25px;
+  height: 25px;
+  line-height: 42px;
+}
+
+.ant-upload-list-item-card-actions {
+  right: 7px;
+  top: 14px !important;
+}
+
+.ant-upload-list-item-info span {
+  display: flex;
+  align-items: center;
+}
+
+.gx-app-login-wrap {
+  flex: auto;
+  margin:30px auto;
+}
+
+.bidder-registration-success {
+  margin: auto;
+}
+
+.not-logged-tooltip svg {
+  color: #3e869b;
+}
+.ant-upload-list-picture .ant-upload-list-item-name, .ant-upload-list-picture-card .ant-upload-list-item-name {
+  padding-left: 28px;
+}
+
+.cont_ineg {
+  margin-bottom: 4px;
+}
+
+.app-ant4-form {
+  margin-top: 0!important;
+  margin-bottom: 18px!important;
+}
+
+.not-logged-form {
+  padding: 0 0 20px 0;
+}
+
+.gx-bottom-padding {
+  padding-bottom:20px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .app-register-form .ant-col {
+    padding: 0 !important;
+  }
+
+  .ant-col:nth-child(2).app-bottom-register-host {
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .action-signup span.ant-legacy-form-item-children {
+    align-items: baseline;
+    flex-direction: column;
+  }
+
+  .gx-app-login-wrap {
+    margin: 25px 0;
+  }
+
+  .not-logged-form {
+    padding: 0 0 0 0;
+}
+
+  .not-logged-form .ant-form-item-label[class*='ant-col-'] {
+    margin-bottom: 3px;
+}
+  .not-logged-form  .ant-form-item-label > label {
+  height: 28px;
+  }
+
+  .upload-row-not-logged #upload1-not-logged {
+    padding-right: 0!important;
+  }
+}
+
+.clock_icon svg {
+  font-size: 40px;
+  color: #3f869c;
+}
+
+.light_gray {
+  color: #636261;
+}
+
+
+@media (max-width: 575px) {
+  .gx-hide-mobileLogo {
+    display: none;
+  }
+
+  .gx-app-borderMobile .gx-app-logo-wid {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    padding-bottom: 15px;
+  }
+
+  .gx-app-borderMobile .gx-app-login-content {
+    padding: 0 20px 10px;
+  }
+
+  .gx-app-login-wrap {
+    margin: 25px 0;
+  }
+}

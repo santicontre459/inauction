@@ -1,0 +1,10 @@
+.custom-breadcrumb-home-icon {
+    padding-right: 10px;
+}
+
+.gx-custom-breadcrumb-card{
+    border-radius: 5px!important;
+    max-height: 85px;
+    line-height: 0;
+    border-top: 4px solid #3e869c !important
+}

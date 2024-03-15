@@ -1,0 +1,97 @@
+export class StatusCodes {
+    public static success ='SUCCESS';
+    public static failure ='FAILURE';
+}
+
+export class ResponseMessages {
+    public static insufficientParams = 'Insufficient parameters';
+    public static dbError = 'Database error';
+    public static userUpdated = 'User data updated';
+    public static invalidUser =  'Invalid user';
+    public static userCreated =  'New user created';
+    public static userAlreadyExist = "Bidder with this email is already registered in our platform!";
+    public static userAlreadyInvited = "Bidder with this email is already invited in our platform!";
+    public static hostAlreadyExist = "Host with this email is already registered in our platform!";
+    public static expertAlreadyExist = "Expert with this email is already registered in our platform!";
+    public static companyAlreadyExist = "Company with provided registration number already exists";
+    public static eventCategoryDoesNotExist = "Event category does not exist";
+    public static badRequestBodyStatus = "Status is either not provided or not the correct one part of the request";
+    public static currencyDoesNotExist = "Currency does not exist";
+    public static lotDoesNotExist = "Lot does not exist";
+    public static jobPositionDoesNotExist = "Job Position does not exist";
+    public static lotDetailDoesNotExist = "Lot Detail does not exist";
+    public static lotDetailsDoNotExist = "Lot Details do not exist";
+    public static categoryDoesNotExist = "Category does not exist";
+    public static categoryNotDeletable = "Category can not be deleted because it has active activities related";
+    public static statusNotChangeable = "Status can not be changed it has active relationship with other resource";
+    public static activityDoesNotExist = "Activity does not exist";
+    public static userDoesNotExist= "User does not exist";
+    public static bidderDoesNotExist= "Bidder does not exist";
+    public static participantDoesNotExist= "Participant does not exist";
+    public static customerDoesNotExist= "Customer does not exist";
+    public static companyDoesNotExist= "Company does not exist";
+    public static roleDoesNotExist = "Role does not exist";
+    public static subRoleDoesNotExist = "Sub Role does not exist";
+    public static eventDoesNotExist = "Event does not exist";
+    public static businessOperationDoesNotExist = "Business operation does not exist";
+    public static expertDoesNotExist = "Expert does not exist";
+    public static taskDoesNotExist = "Task does not exist";
+    public static taskNoteDoesNotExist = "This note does not exist";
+    public static taskNameDoesNotExist = "Task Name does not exist";
+    public static taskTypeDoesNotExist = "Task Type does not exist";
+    public static expertPositionNotAllowed = "Experts are not allowed to use this Job Position";
+    public static expertNotDeletableDueToTasks =
+        "Expert cannot be deleted because it has active and in progress tasks assigned to!";
+    public static taskNotDeletableDueToStatus =
+        "Completed and In Progress Tasks are not deletable!";
+    public static expertNotDeactivatedDueToTasks =
+        "Expert cannot be deactivated because it has active and in progress tasks assigned to!";
+    public static onlineAuctionDoesNotExist = "Online auction does not exist";
+    public static rfqDoesNotExist = "RFQ does not exist";
+    public static questionnaireDoesNotExist = "Questionnaire does not exist";
+    public static questionnaireHasInsufficientData = "Questionnaire has insufficient data";
+    public static rfqHasInsufficientData = "RFQ has insufficient data";
+    public static oaHasInsufficientData = "Online Auction has insufficient data";
+    public static sectionDoesNotExist = "Section does not exist";
+    public static sectionInvalid = "Section is invalid";
+    public static sectionsRequired = "Section is required";
+    public static questionDoesNotExist = "Question does not exist";
+    public static questionInvalid = "Question is invalid";
+    public static questionsRequired = "Question is required";
+    public static questionOptionInvalid = "Question option is invalid";
+    public static questionOptionsRequired = "Question options are required";
+    public static companyDoesNotHaveAnyActivity = "Company does not have any activity";
+    public static companyUnauthorized = "User doesn't have permission to the requested company";
+    public static uomDoesNotExist = "Uom does not exist";
+    public static legalFormDoesNotExist = "Legal Form does not exist";
+    public static questionOptionDoesNotExist = "Question option does not exist";
+    public static hostHasNotInvitedAnyBidder= "Host has not invited any bidder yet";
+    public static addTotalBudget = "Total budget missing";
+    public static emailWrongFormat = "Email has wrong format";
+    public static eventParticipantsDoNotExist = "Event participants do not exist";
+    public static verificationStatusesChangesNotAllow = "This verification status change is not allowed.";
+    public static taskCompilationStatusesChangesNotAllow = "This task compilation status change is not allowed.";
+    public static bidderOrCompanyDoesNotExist = "Bidder or Company does not exist.";
+    public static eventTypeDoesNotExist = "Event type does not exist";
+    public static eventBudgetRequired = "Event budget is required";
+    public static eventChooseType = "Choose Event Type";
+    public static eventAtLeastOneQuestionnaire = "Please, add at least one Questionnaire";
+    public static rfqIncorrectSealResultType = "Incorrect Seal Result Type";
+    public static incorrectBidDirectionType = "Incorrect Bid Direction value";
+    public static draftEventProvideRFQDetails = "Please provide RFQ Details!";
+    public static draftEventProvideOADetails = "Please provide OA Details!";
+    public static incorrectCompetitionInfoValue = "Incorrect Competition Info value";
+    public static incorrectMinimumDurationValue = "Incorrect Minimum Duration value";
+    public static incorrectDynamicClosePeriodValue  = "Incorrect Dynamic Close Period value";
+    public static incorrectQuestionnaireWeightingType = "Incorrect questionnaire weighting type value";
+    public static incorrectQuestionnaireWeightingCombinationType = "Questionnaire weighting combinations not allowed";
+    public static questionnaireHasWeightingRestriction = "Only one questionnaire should have weighting!";
+    public static questionnaireHasPreQualificationRestriction = "Only one questionnaire should have pre qualification!";
+    public static questionnaireBadHasScoreData = "Bad hasScore questionnaire value!";
+    public static incorrectQuestionnaireEventScoreCalculation = "Only one questionnaire can participate in Event Scoring";
+    public static incorrectQuestionnaireHasScoreNumber = "Please provide questionnaire with scoring for the event!";
+    public static questionnaireMissingFromRFQ = "Questionnaire missing from RFQ calculation!";
+    public static incorrectQuestionnaireDataRFQ = "Incorrect data for RFQ calculation Questionnaire!";
+    public static questionnaireMissingFromOA = "Questionnaire missing from OA calculation!";
+    public static incorrectQuestionnaireDataOA = "Incorrect data for OA calculation Questionnaire!";
+}

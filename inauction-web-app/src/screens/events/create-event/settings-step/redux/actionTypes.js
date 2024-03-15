@@ -1,0 +1,4 @@
+export const SET_FIELDS = 'SET_FIELDS';
+export const CURRENCIES_RECEIVED = 'CURRENCIES_RECEIVED';
+export const SET_LOADING = 'SET_LOADING';
+export const RESET_LOADING = 'RESET_LOADING';

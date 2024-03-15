@@ -1,0 +1,9 @@
+export const GET_EXPERTS = 'GET_EXPERTS';
+export const ADD_EXPERT = 'ADD_EXPERT';
+export const DELETE_EXPERT = 'DELETE_EXPERT';
+export const GET_EXPERT = 'GET_EXPERT';
+export const UPDATE_EXPERT = 'UPDATE_EXPERT';
+export const GET_EXPERT_POSITIONS = 'GET_EXPERT_POSITIONS';
+export const CLEAR_EXPERT = 'CLEAR_EXPERT';
+export const EXPERT_LOADING = 'EXPERT_LOADING';
+export const RESET_LOADING = 'RESET_LOADING';

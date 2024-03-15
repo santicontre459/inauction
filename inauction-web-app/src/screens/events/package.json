@@ -1,0 +1,9 @@
+{
+  "name": "Selectable",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CalendarList.js",
+  "dependencies": {
+    "react-big-calendar": "^0.17.0"
+  }
+}

@@ -1,0 +1,66 @@
+[
+    {
+      "name": "production",
+      "type": "postgres",
+      "host": "34.75.83.181",
+      "port": 5432,
+      "database": "inauction",
+      "synchronize": true,
+      "logging": true,
+      "username":"postgres",
+      "password":"qsthmqjxmIJMMxy7",
+      "dropSchema": false,
+      "useUnifiedTopology": true,
+      "esModuleInterop": true,
+      "entities":  ["dist/core/schema/*.js"],
+      "migrations": ["dist/core/migrations/*.js"],
+      "subscribers": ["dist/core/subscriber/*.js","lib/core/subscriber/**/*.ts"],
+      "cli": {
+        "entitiesDir": "lib/core/schema",
+        "migrationsDir": "lib/core/migrations",
+        "subscribersDir": "lib/core/subscriber"
+      }
+
+    },
+    {
+      "name": "beta",
+      "type": "postgres",
+      "host": "34.75.83.181",
+      "port": 5432,
+      "database": "inauction",
+      "synchronize": true,
+      "logging": true,
+      "username":"postgres",
+      "password":"qsthmqjxmIJMMxy7",
+      "dropSchema": false,
+      "useUnifiedTopology": true,
+      "esModuleInterop": true,
+      "entities":  ["dist/core/schema/*.js"],
+      "migrations": ["dist/core/migrations/*.js"],
+      "subscribers": ["dist/core/subscriber/*.js","lib/core/subscriber/**/*.ts"],
+      "cli": {
+        "entitiesDir": "lib/core/schema",
+        "migrationsDir": "lib/core/migrations",
+        "subscribersDir": "lib/core/subscriber"
+      }
+    },
+    {
+      "name": "default",
+      "type": "postgres",
+      "host": "localhost",
+      "port": 5432,
+      "database": "inauction",
+      "synchronize": true,
+      "logging": true,
+      "username":"postgres",
+      "password":"1234",
+      "entities":  ["lib/core/schema/**/*.ts"],
+      "migrations": ["lib/core/migrations/**/*.ts"],
+      "subscribers": ["lib/core/subscriber/**/*.ts"],
+      "cli": {
+        "entitiesDir": "lib/core/schema",
+        "migrationsDir": "lib/core/migrations",
+        "subscribersDir": "lib/core/subscriber"
+      }
+    }
+  ]

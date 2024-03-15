@@ -1,0 +1,9 @@
+.module-informational-notes{
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+.ant-layout-footer {
+    border-top: solid 1px #e8e8e8;
+    position: relative;
+    bottom: -160px;
+}

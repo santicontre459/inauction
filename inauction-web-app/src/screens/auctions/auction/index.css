@@ -1,0 +1,50 @@
+.bid-sts .bide{
+    background-color: #3f869c !important;
+    color: white;
+}
+.bid-sts .bide:hover{
+    background-color: white !important;
+    color: #3f869c !important;
+}
+.pdf-main-slide {
+    margin: 0 15px;
+    padding: 0 15px;
+}
+.lay-row{
+    flex-direction: row;
+}
+.lay-row h5{
+    text-align: center;
+}
+.lay-row h5>span{
+    margin-left: 10px;
+}
+.questions-tabs {
+    display: flex;
+    justify-content: space-between;
+}
+.auct-row{
+    width: 100%;
+    margin: 20px 0;
+}
+.auct-row h4 {
+    color: #3f869c;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.auct-row b{
+    color: #3f869c;
+}
+.list-orw .ant-list-items>li {
+    width: 50%;
+}
+
+.list-orw .ant-list-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-title {
+    font-size: 16px;
+}

@@ -1,0 +1,114 @@
+ul.ant-menu.ant-menu-light.ant-menu-root.ant-menu-horizontal {
+  display: flex;
+  align-items: center;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {
+  color: transparent !important;
+  border-bottom: none !important;
+  top: 0px;
+}
+
+.ant-layout-header-not-logged {
+  height: 70px;
+}
+
+.gx-layout-header-content {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+}
+
+.logo-not-logged-in img {
+  width: 40%;
+  margin-left: 15px;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu {
+  margin: 0 10px;
+}
+
+ul.gx-header-notifications {
+  padding-left: 20px;
+}
+
+.app-mobile-version {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-language {
+  padding-right: 20px;
+}
+
+.app-menu-collapse {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 16px;
+}
+
+.app-menu-collapse a {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.app-mobile-version i {
+  font-size: 30px;
+  color: #3f869c;
+}
+
+.app-header-right {
+  margin-right: 40px;
+}
+
+.app-header-right ul {
+  line-height: 0 !important;
+}
+
+.not-logged-drawer .app-menu-collapse {
+  padding-left: 25px;
+}
+
+.not-logged-drawer .app-menu-collapse a {
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.not-logged-drawer .ant-drawer-title {
+  font-size: 20px;
+}
+
+/* On screens that are 768px or less*/
+@media (max-width: 768px) {
+  .app-header-left,
+  .app-header-center {
+    margin-bottom: 12px !important;
+  }
+
+  .app-header-right {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  .logo-not-logged-in img {
+    width: 70%;
+    margin-left: -25px;
+    margin-top: 10px;
+  }
+
+  .app-header-right {
+    margin-right: 0;
+  }
+}

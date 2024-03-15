@@ -1,0 +1,98 @@
+.ant-form-item-control-wrapper {
+  width: 100%!important;
+}
+.ant-layout-footer {
+  border-top: solid 1px #e8e8e8;
+  position: relative;
+  top: 70px;
+}
+
+.expert-task-form-gx-media-body {
+  line-height: 30px;
+  margin-top: 15px;
+}
+
+.expert-task-form-gx-media-body .ant-input {
+  font-size: 13px;
+  border-radius: 4px;
+}
+
+.expert-tasks-form-gx-card .ant-card-head-title {
+  margin-bottom: -20px;
+}
+.gx-media-input-form-details {
+  font-size: 13px;
+  text-align: justify!important;
+}
+
+.expert-task-form-gx-media-card {
+  border-top: 1px solid #d9d9d9;
+  margin-top: 5px;
+}
+
+.expert-tasks-table-gx {
+  border-top: 1px solid #d9d9d9;
+  margin-top: 5px;
+  padding-top: 20px;
+}
+
+.has-error .ant-form-explain, .has-error .ant-form-split {
+  color: #f75428!important;
+  margin-top: 5px;
+}
+.required-label-dot {
+  color: #f75428!important;
+  margin-left: 5px;
+}
+
+.add-task-expert-btn {
+  margin-top: 20px;
+}
+
+.back-to-btn {
+  background: #fa8c16!important;
+  border: 1px solid #fa8c16!important;
+  color: white!important;
+}
+
+.add-expert-task-btn {
+  background: #3e869c!important;
+  border: 1px solid #3e869c!important;
+  color: white!important;
+  float: right;
+  top: -30px;
+}
+
+.add-expert-task-btn i {
+  position: relative;
+  top: 3px;
+  left: -5px;
+}
+
+.table-task-event-label {
+  width: 100% !important;
+}
+.div-table-task-event-label {
+  width: 90%;
+  text-align: center;
+  top: 5px;
+  position: relative;
+  left: 5px;
+}
+
+#add_task {
+  border-top: 1px solid #d9d9d9;
+  margin-top: 5px;
+}
+
+#add_task .ant-form-item-label {
+  padding: 0 0 5px;
+}
+
+#add_task .ant-form-item-explain-error {
+  margin-top: 5px;
+}
+
+.add-task-form-gx-card .ant-card-head-title {
+  margin-bottom: -20px;
+}

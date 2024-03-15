@@ -1,0 +1,33 @@
+.app-footer-container {
+  margin: 0 !important;
+}
+
+.app-footer-right {
+  padding-left: 20px
+}
+
+.app-footer-right a {
+  margin-left: 20px;
+  color: #333333;
+  font-weight: 300;
+}
+
+.app-footer-left a {
+  margin-left: 20px;
+  color: #333333;
+  font-weight: 300;
+}
+
+.app-footer-left {
+  padding-right: 20px
+}
+
+
+/* On screens that are 768px or less*/
+
+@media (max-width: 768px) {
+  .app-footer-left,
+  .app-footer-center {
+    margin-bottom: 12px !important;
+  }
+}

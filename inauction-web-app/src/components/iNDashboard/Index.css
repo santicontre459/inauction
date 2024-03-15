@@ -1,0 +1,17 @@
+.dashboard-icon{
+    color: #3e869c!important;
+}
+
+.event-dashboard-icon{
+    top: 4px;
+    font-size: 15px;
+    position: relative;
+}
+
+.recent-activities-dashboard{
+    padding-top: 20px!important;
+}
+
+.gx-list-group li span {
+    margin-right: 12px;
+}

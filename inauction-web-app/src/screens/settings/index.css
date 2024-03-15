@@ -1,0 +1,104 @@
+.ant-menu-submenu > .ant-menu.ant-menu-sub .ant-menu-item {
+  padding-left: 5px !important;
+}
+
+.first-item-menu {
+  background: #f7f9fa;
+  border: 1px solid #e4e5e7;
+  font-weight: 600;
+  border-radius: 1px;
+}
+
+.li-padding-left {
+  padding-left: 10px !important;
+}
+
+.li-padding-left-menu {
+  padding-left: 48px !important;
+  border-bottom: 1px solid #e4e5e7;
+}
+
+.gx-module-side {
+  position: relative;
+  z-index: 2;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex: 0 1 300px;
+  min-width: 300px;
+}
+
+.ant-menu-submenu > .ant-menu.ant-menu-sub .ant-menu-item {
+  padding-left: 54px !important;
+}
+
+.main-content-custom{
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.badge-left {
+  float: right;
+}
+
+.green-badge {
+  color: #52c41a;
+}
+
+.yellow-badge {
+    color: #ffb606;
+}
+
+.darkblue-badge {
+  color: #34495e;
+}
+
+.module-informational-notes {
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.ant-layout-footer {
+  border-top: solid 1px #e8e8e8;
+  position: relative;
+  bottom: -160px;
+}
+
+.activity-form-gx-card .ant-card-head-title {
+  margin-bottom: -20px;
+}
+
+.btn-add-activity {
+  float: right;
+}
+
+.activities-table-gx-media-card {
+  border-top: 1px solid #d9d9d9;
+  margin-top: 5px;
+  padding-top: 20px !important;
+}
+
+.activities-list-btn {
+  background: #3e869c !important;
+  border: 1px solid #3e869c !important;
+  color: white !important;
+  float: right;
+  top: -30px;
+}
+
+.activities-list-btn i{
+  position: relative;
+  top: 3px;
+  left: -5px;
+}
+
+.activities-add-gx-media-card {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.company-status-list {
+  border-top: 1px solid #d9d9d9;
+  margin-top: 5px;
+}

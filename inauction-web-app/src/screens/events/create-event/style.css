@@ -1,0 +1,42 @@
+
+
+form .ant-mentions, form textarea.ant-input {
+  margin-bottom: 0px;
+}
+
+.ant-statistic-content-value {
+  color: #3f869c;
+  font-size: 20px;
+}
+
+.questionnaire-divider {
+  margin: 30px 0px;
+}
+
+.ant-statistic-content-suffix {
+  font-size: 12px;
+}
+
+.sectionBackground {
+  padding: 16px;
+}
+
+.sectionBackground:nth-child(even) {
+  background-color: rgba(63, 140, 158, 0.08);
+  border-radius: 10px;
+}
+
+.questionnaireBackground {
+  padding: 16px;
+  background-color: rgba(63, 140, 158, 0.08);
+  border-radius: 10px;
+}
+
+.input-section-vertical {
+  display: block;
+  padding-bottom: 12px;
+}
+
+.checkbox-padding {
+  padding-top: 28px;
+}

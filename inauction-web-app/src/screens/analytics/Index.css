@@ -1,0 +1,52 @@
+.table-event-status{
+    width: 100% !important;
+}
+.div-table-event-status{
+    width: 90%;
+    text-align: center;
+    top: 5px;
+    position: relative;
+    left: 5px;
+}
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td {
+    padding: 8px 8px 8px 8px;
+}
+
+.gx-media-event-details{
+    font-size: 13px;
+    text-align: justify!important;
+}
+
+.events-table-gx-media-card{
+    border-top: 1px solid #d9d9d9;
+    margin-top: 5px;
+    padding-top: 20px!important;
+}
+
+.events-list-btn{
+    background: #3e869c!important;
+    border: 1px solid #3e869c!important;
+    color: white!important;
+    float: right;
+    top: -30px;
+}
+
+.events-list-btn i{
+    position: relative;
+    top: 3px;
+    left: -5px;
+}
+
+.all-events-card .ant-card-body{
+    padding-bottom: 0;
+}
+.recharts-legend-wrapper{
+    left: 10px!important;
+    bottom: -10px!important;
+}
+
+.recharts-responsive-container{
+    position: relative;
+    right: 20px;
+}

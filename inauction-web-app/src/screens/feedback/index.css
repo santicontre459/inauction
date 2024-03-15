@@ -1,0 +1,24 @@
+.module-informational-notes {
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.feedback-form-gx-media-body {
+  line-height: 30px;
+  margin-top: 5px;
+}
+
+.feedback-form-gx-media-body .ant-input {
+  font-size: 13px;
+  border-radius: 4px;
+}
+
+.feedback-form-gx-card .ant-card-head-title {
+  margin-bottom: -20px;
+}
+
+.ant-layout-footer {
+  border-top: solid 1px #e8e8e8;
+  position: relative;
+  bottom: -160px;
+}
